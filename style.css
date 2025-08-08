@@ -1,0 +1,494 @@
+body { 
+ 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
+ 
+    background-color: #f8f9fa; /* Light gray background to match the image */ 
+ 
+} 
+ 
+  
+ 
+/* Top Header */ 
+ 
+.top-header { 
+ 
+    background-color: #212529 !important; 
+ 
+} 
+ 
+  
+ 
+/* Navigation Bar */ 
+ 
+.navbar-brand img { 
+ 
+    height: 25px; /* Adjust as needed */ 
+ 
+} 
+ 
+.navbar .nav-link { 
+ 
+    font-weight: 500; 
+ 
+    color: #495057; 
+ 
+    margin: 0 10px; 
+ 
+} 
+ 
+.navbar .nav-link:hover { 
+ 
+    color: #0d6efd; 
+ 
+} 
+ 
+  
+ 
+/* Promotional Banner */ 
+ 
+.promotional-banner .card { 
+ 
+    height: 400px; /* Adjust the height of the banner */ 
+ 
+    overflow: hidden; 
+ 
+} 
+ 
+.promotional-banner .card-img { 
+ 
+    width: 100%; 
+ 
+    height: 100%; 
+ 
+    object-fit: cover; 
+ 
+    filter: brightness(0.8); 
+ 
+} 
+ 
+.promotional-banner .card-img-overlay { 
+ 
+    background: linear-gradient(to left, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%); 
+ 
+} 
+ 
+  
+ 
+/* Brand Logos Section */ 
+ 
+.brand-logo { 
+ 
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; 
+ 
+    background-color: #fff; 
+ 
+    height: 80px; /* Uniform height for brand logo cards */ 
+ 
+    display: flex; 
+ 
+    align-items: center; 
+ 
+    justify-content: center; 
+ 
+} 
+ 
+.brand-logo img { 
+ 
+    max-height: 50px; 
+ 
+    width: auto; 
+ 
+} 
+ 
+.brand-logo:hover { 
+ 
+    transform: translateY(-5px); 
+ 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+ 
+} 
+ 
+  
+ 
+/* Product Cards */ 
+ 
+.product-card { 
+ 
+    border: 1px solid #e9ecef; 
+ 
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out; 
+ 
+    background-color: #fff; 
+ 
+} 
+ 
+.product-card:hover { 
+ 
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15); 
+ 
+    transform: translateY(-5px); 
+ 
+} 
+ 
+.product-card .card-img-top { 
+ 
+    height: 150px; 
+ 
+    object-fit: contain; 
+ 
+} 
+ 
+.product-card .btn-outline-primary { 
+ 
+    transition: all 0.3s; 
+ 
+} 
+ 
+  
+ 
+/* Shop All Things Home Section */ 
+ 
+.shop-all-home .card { 
+ 
+    height: 300px; 
+ 
+    overflow: hidden; 
+ 
+} 
+ 
+.shop-all-home .card-img { 
+ 
+    width: 100%; 
+ 
+    height: 100%; 
+ 
+    object-fit: cover; 
+ 
+    filter: brightness(0.8); 
+ 
+} 
+ 
+.shop-all-home .card-img-overlay { 
+ 
+    background: linear-gradient(to right, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%); 
+ 
+} 
+ 
+.shop-all-home .card-img-overlay .btn-light:hover { 
+ 
+    background-color: #e2e6ea; 
+ 
+} 
+ 
+  
+ 
+/* Footer */ 
+ 
+.footer { 
+ 
+    background-color: #343a40 !important; 
+ 
+} 
+ 
+  
+ 
+/* Social Media Icons (Optional, not in the image but in description) */ 
+ 
+.social-icons a { 
+ 
+    color: #fff; 
+ 
+    margin-right: 15px; 
+ 
+    font-size: 1.25rem; 
+ 
+    transition: color 0.3s ease; 
+ 
+} 
+ 
+.social-icons a:hover { 
+ 
+    color: #0d6efd; 
+ 
+} 
+ 
+  
+ 
+/* Mobile-specific styles for the search bar */ 
+ 
+@media (max-width: 991.98px) { 
+ 
+    .top-header { 
+ 
+        display: none !important; 
+ 
+    } 
+ 
+    .navbar .navbar-brand { 
+ 
+        margin-right: auto; 
+ 
+    } 
+ 
+    .navbar .navbar-toggler { 
+ 
+        margin-left: auto; 
+ 
+    } 
+ 
+    .navbar .collapse { 
+ 
+        order: 3; 
+ 
+    } 
+ 
+} 
+ 
+body { 
+ 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
+ 
+    background-color: #f8f9fa; /* Light gray background to match the image */ 
+ 
+} 
+ 
+  
+ 
+/* Top Header */ 
+ 
+.top-header { 
+ 
+    background-color: #212529 !important; 
+ 
+} 
+ 
+  
+ 
+/* Navigation Bar */ 
+ 
+.navbar-brand img { 
+ 
+    height: 25px; /* Adjust as needed */ 
+ 
+} 
+ 
+.navbar .nav-link { 
+ 
+    font-weight: 500; 
+ 
+    color: #495057; 
+ 
+    margin: 0 10px; 
+ 
+} 
+ 
+.navbar .nav-link:hover { 
+ 
+    color: #0d6efd; 
+ 
+} 
+ 
+  
+ 
+/* Promotional Banner */ 
+ 
+.promotional-banner .card { 
+ 
+    height: 400px; /* Adjust the height of the banner */ 
+ 
+    overflow: hidden; 
+ 
+} 
+ 
+.promotional-banner .card-img { 
+ 
+    width: 100%; 
+ 
+    height: 100%; 
+ 
+    object-fit: cover; 
+ 
+    filter: brightness(0.8); 
+ 
+} 
+ 
+.promotional-banner .card-img-overlay { 
+ 
+    background: linear-gradient(to left, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%); 
+ 
+} 
+ 
+  
+ 
+/* Brand Logos Section */ 
+ 
+.brand-logo { 
+ 
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; 
+ 
+    background-color: #fff; 
+ 
+    height: 80px; /* Uniform height for brand logo cards */ 
+ 
+    display: flex; 
+ 
+    align-items: center; 
+ 
+    justify-content: center; 
+ 
+} 
+ 
+.brand-logo img { 
+ 
+    max-height: 50px; 
+ 
+    width: auto; 
+ 
+} 
+ 
+.brand-logo:hover { 
+ 
+    transform: translateY(-5px); 
+ 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+ 
+} 
+ 
+  
+ 
+/* Product Cards */ 
+ 
+.product-card { 
+ 
+    border: 1px solid #e9ecef; 
+ 
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out; 
+ 
+    background-color: #fff; 
+ 
+} 
+ 
+.product-card:hover { 
+ 
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15); 
+ 
+    transform: translateY(-5px); 
+ 
+} 
+ 
+.product-card .card-img-top { 
+ 
+    height: 150px; 
+ 
+    object-fit: contain; 
+ 
+} 
+ 
+.product-card .btn-outline-primary { 
+ 
+    transition: all 0.3s; 
+ 
+} 
+ 
+  
+ 
+/* Shop All Things Home Section */ 
+ 
+.shop-all-home .card { 
+ 
+    height: 300px; 
+ 
+    overflow: hidden; 
+ 
+} 
+ 
+.shop-all-home .card-img { 
+ 
+    width: 100%; 
+ 
+    height: 100%; 
+ 
+    object-fit: cover; 
+ 
+    filter: brightness(0.8); 
+ 
+} 
+ 
+.shop-all-home .card-img-overlay { 
+ 
+    background: linear-gradient(to right, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%); 
+ 
+} 
+ 
+.shop-all-home .card-img-overlay .btn-light:hover { 
+ 
+    background-color: #e2e6ea; 
+ 
+} 
+ 
+  
+ 
+/* Footer */ 
+ 
+.footer { 
+ 
+    background-color: #343a40 !important; 
+ 
+} 
+ 
+  
+ 
+/* Social Media Icons (Optional, not in the image but in description) */ 
+ 
+.social-icons a { 
+ 
+    color: #fff; 
+ 
+    margin-right: 15px; 
+ 
+    font-size: 1.25rem; 
+ 
+    transition: color 0.3s ease; 
+ 
+} 
+ 
+.social-icons a:hover { 
+ 
+    color: #0d6efd; 
+ 
+} 
+ 
+  
+ 
+/* Mobile-specific styles for the search bar */ 
+ 
+@media (max-width: 991.98px) { 
+ 
+    .top-header { 
+ 
+        display: none !important; 
+ 
+    } 
+ 
+    .navbar .navbar-brand { 
+ 
+        margin-right: auto; 
+ 
+    } 
+ 
+    .navbar .navbar-toggler { 
+ 
+        margin-left: auto; 
+ 
+    } 
+ 
+    .navbar .collapse { 
+ 
+        order: 3; 
+ 
+    } 
+ 
+} 
+ 
+   
+ 

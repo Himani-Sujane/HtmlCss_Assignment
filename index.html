@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registration Form</title>
+  <style>
+    /*CSS for Registration form */
+ 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+   
+  body {
+    background: radial-gradient(circle, #017d87, #025e67);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  .container {
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+  }
+   
+  .form-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+   
+  .form-box h2 {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+   
+  label {
+    display: block;
+    margin-top: 15px;
+    /* font-weight: bold; */
+    font-size: 14px;
+    color: grey;
+  }
+   
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+   
+  .terms {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+   
+  .terms label {
+    font-weight: normal;
+  }
+   
+  .terms a {
+    color: #025e67;
+    text-decoration: none;
+  }
+  input[type="checkbox"] {
+    appearance: none;
+     -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    /* Add some positioning for the pseudo-element to be placed correctly */
+    position: relative;
+    /* Use display: inline-block to allow proper alignment with text */
+    display: inline-block;
+    vertical-align: middle; /* Align with the text */
+}
+ 
+    /* Style for unchecked state */
+    input[type="checkbox"]:not(:checked) {
+      background-color: #fff;
+    }
+   
+    input[type="checkbox"]:checked {
+    background-color: #025e67; /* Desired color */
+    border-color: #025e67;
+    content: '✔';
+}
+  button {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #025e67;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+   
+  button:hover {
+    background-color: #014850;
+  }
+ 
+ 
+  </style>
+ 
+</head>
+<body>
+  <div class="container">
+    <form class="form-box"action="home.html">
+      <h2 style="font-weight: normal;">Registration</h2>
+ 
+      <label for="name">Name *</label>
+      <input type="text" id="name" name="name" required />
+ 
+      <label for="email">Enter Email *</label>
+      <input type="email" id="email" name="email" required autocomplete="email" />
+ 
+      <label for="mobile">Enter Mobile number *</label>
+      <input type="tel" id="mobile" name="mobile" required />
+ 
+      <div class="terms">
+       
+        <label for="terms">
+            <input type="checkbox" id="terms" required /> I have read and accepted the <a href="#">Terms & Conditions*</a>
+        </label>
+      </div>
+ 
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
+ 
+ 
+ 
+ 
